@@ -69,6 +69,12 @@
     <OutDir>$(SolutionDir)$(Platform)\Bin\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\Temp\$(Configuration)\</IntDir>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\Additional Libraries\Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_ProjectDir)\..\..\..\Lib\Lib\$(Configuration)\$(Platform)\;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)..\..\Build\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\Build\$(Configuration)\Intermidiate\</IntDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
