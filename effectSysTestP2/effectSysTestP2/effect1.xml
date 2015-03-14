@@ -1,0 +1,29 @@
+<!-- id is basically if its a queued item -->
+<!-- shaders are parsed as a string -->
+<VertexShaderBody name = "vtxShader">
+	#version 430
+
+	layout(location = 0) in vec3 vertexPosition_modelspace;
+	 
+	void main() {
+		gl_Position.xyz = vertexPosition_modelspace;
+		gl_Position.w = 1.0;
+	}
+</VertexShaderBody>
+<FragmentShaderBody name = "fragShader">
+	#version 430
+
+	out vec3 color;
+	 
+	void main(){
+		color = vec3(0.0,1.0,0.0);
+	}
+</FragmentShaderBody>
+<Effect name = "effect0">
+	<Technique name = "technique0">
+		<Pass name = "pass0">
+			<VertexShader name = "shader0">vtxShader</VertexShader>
+			<FragmentShader name = "shader1">fragShader</FragmentShader>
+		</Pass>
+	</Technique>
+</Effect>
