@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Actor">
+      <UniqueIdentifier>{1ad1eacc-c3f5-4b20-8532-846066201c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{a94ddffe-1c69-4279-9c12-2b18596e9a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event">
+      <UniqueIdentifier>{60d4c930-127f-4156-8d07-1deda28960b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{4777fa6f-7a4f-462e-9173-747156acad94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FX">
+      <UniqueIdentifier>{e84e2b83-0461-4ed9-bdff-ac8357928093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{b6cf5eb2-2504-4d24-b571-7b8cc60f977a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process">
+      <UniqueIdentifier>{9ec3b53c-d0ed-46f4-b3db-723ce033dd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actor">
+      <UniqueIdentifier>{92493441-75c4-4c69-aa18-439830bcfb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event">
+      <UniqueIdentifier>{9650ff17-bda0-40be-a93a-c5ef5ffca58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{4335a700-6b1c-4167-9c1c-210e6aa8c3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{436d55a8-7409-49dc-a37d-1067e87abf99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FX">
+      <UniqueIdentifier>{09866bed-17ce-4435-be68-4f37637bb215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process">
+      <UniqueIdentifier>{84325692-83fc-4776-a952-e30a5a876921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource">
+      <UniqueIdentifier>{a710a3a0-16fd-43bb-b895-52328de852a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrontlineCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flstringutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\Actor.h">
+      <Filter>Header Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\ActorComponent.h">
+      <Filter>Header Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorComponents.h">
+      <Filter>Header Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\ActorFactory.h">
+      <Filter>Header Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\ActorMotionState.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\AddCollisionPairEventData.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\BulletDebugDrawer.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\BulletPhysics.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="IPhysics.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\flFx.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\flFxConfig.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\flFxExt.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\flFxGL.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\flFxParser.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\flFxParserGL.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GLenum.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GL.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ZipResourceFile.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ZipFile.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\IResourceLoader.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceFile.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\IResource.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Win32WindowManager.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Win32Console.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Time.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\IWindowManager.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\EventManager.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEventData.h">
+      <Filter>Header Files\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\Process.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\ProcessManager.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Process\TimerProcess.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsComponent.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Pool.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="FLMemory.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Console.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Log.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor\TransformComponent.h">
+      <Filter>Header Files\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\LoadShaders.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ResCache.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\texture.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\DefaultResource.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\StatesGL.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Color.h">
+      <Filter>Header Files\FX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor\Actor.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor\ActorFactory.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\ActorMotionState.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\AddCollisionPairEventData.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\BulletDebugDrawer.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\BulletPhysics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\EventManager.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\DefaultResource.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\flFxParserGL.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\flFx.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\flFxExt.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\flFxGL.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\flFxParser.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GLenum.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\LoadShaders.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Main.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FLMemory.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardEventData.cpp">
+      <Filter>Source Files\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Log.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsComponent.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Pool.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\Process.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\ProcessManager.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\ResCache.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Win32WindowManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Win32Console.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Time.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\ZipResourceFile.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\ZipFile.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\StatesGL.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\texture.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor\TransformComponent.cpp">
+      <Filter>Source Files\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Process\TimerProcess.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

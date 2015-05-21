@@ -33,19 +33,19 @@
     <ClCompile Include="flFxGL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="temp\LoadShaders.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GLenum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="temp\texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="flFxParserGL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StatesGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,19 +80,19 @@
     <ClInclude Include="GL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="temp\LoadShaders.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="GLenum.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="temp\texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="flFxParserGL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StatesGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadShaders.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

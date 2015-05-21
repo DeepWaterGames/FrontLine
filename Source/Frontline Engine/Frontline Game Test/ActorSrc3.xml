@@ -1,0 +1,43 @@
+<PhysicsComponent>
+	<Shape>Box</Shape>
+	<Transform>
+		<Translation>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Translation>
+		<Rotation>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Rotation>
+		<Scale>
+			<x>6</x>
+			<y>6</y>
+			<z>6</z>
+		</Scale>
+	</Transform>
+	<CollisionChannels>
+		<Type>4</Type>
+		<CollideWith>7</CollideWith>
+	</CollisionChannels>
+	<Material>Bouncy</Material>
+	<Density>Static</Density>
+</PhysicsComponent>
+<TransformComponent>
+	<Translation>
+		<x>0</x>
+		<y>-9</y>
+		<z>0</z>
+	</Translation>
+	<Rotation>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</Rotation>
+	<Scale>
+		<x>1</x>
+		<y>1</y>
+		<z>1</z>
+	</Scale>
+</TransformComponent>

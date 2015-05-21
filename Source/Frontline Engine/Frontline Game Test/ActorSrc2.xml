@@ -1,0 +1,43 @@
+<PhysicsComponent>
+	<Shape>Sphere</Shape>
+	<Transform>
+		<Translation>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Translation>
+		<Rotation>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Rotation>
+		<Scale>
+			<x>3</x>
+			<y>3</y>
+			<z>2</z>
+		</Scale>
+	</Transform>
+	<CollisionChannels>
+		<Type>2</Type>
+		<CollideWith>5</CollideWith>
+	</CollisionChannels>
+	<Material>Bouncy</Material>
+	<Density>Default</Density>
+</PhysicsComponent>
+<TransformComponent>
+	<Translation>
+		<x>0</x>
+		<y>14</y>
+		<z>0</z>
+	</Translation>
+	<Rotation>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</Rotation>
+	<Scale>
+		<x>1</x>
+		<y>1</y>
+		<z>1</z>
+	</Scale>
+</TransformComponent>

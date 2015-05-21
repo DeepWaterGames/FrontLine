@@ -71,7 +71,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>C:\Program Files %28x86%29\Windows Kits\Additional Libraries\Includes;$(IncludePath)</IncludePath>
-    <LibraryPath>$(VC_ProjectDir)\..\..\..\Lib\Lib\$(Configuration)\$(Platform)\;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Program Files %28x86%29\Windows Kits\Additional Libraries\Lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)..\..\Build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\..\Build\$(Configuration)\Intermidiate\</IntDir>
   </PropertyGroup>
@@ -80,10 +80,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GLM_FORCE_PURE;SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>sfml-audio-s-d.lib;sfml-graphics-s-d.lib;sfml-main-d.lib;sfml-network-s-d.lib;sfml-system-s-d.lib;sfml-window-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;sfml-main-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -142,11 +143,11 @@
     <ClCompile Include="flFxParser.cpp" />
     <ClCompile Include="flFxParserGL.cpp" />
     <ClCompile Include="GLenum.cpp" />
+    <ClCompile Include="LoadShaders.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pugixml\pugixml.cpp" />
     <ClCompile Include="StatesGL.cpp" />
-    <ClCompile Include="temp\LoadShaders.cpp" />
-    <ClCompile Include="temp\texture.cpp" />
+    <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fastdelegate\FastDelegate.h" />
@@ -159,11 +160,11 @@
     <ClInclude Include="flFxParserGL.h" />
     <ClInclude Include="GL.h" />
     <ClInclude Include="GLenum.h" />
+    <ClInclude Include="LoadShaders.h" />
     <ClInclude Include="pugixml\pugiconfig.hpp" />
     <ClInclude Include="pugixml\pugixml.hpp" />
     <ClInclude Include="StatesGL.h" />
-    <ClInclude Include="temp\LoadShaders.h" />
-    <ClInclude Include="temp\texture.h" />
+    <ClInclude Include="texture.h" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="effect.xml">
